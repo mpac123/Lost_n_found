@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>org.b2m.lostandfound</groupId>
+    <artifactId>laf-root</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>org.b2m.lostandfound</groupId>
+  <artifactId>laf-parsers</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>laf-parsers</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+   <dependency>
+		<groupId>org.b2m.lostandfound</groupId>
+		<artifactId>laf-model</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+  
+  <modules>
+    <module>laf-parserwaw</module>
+    <module>laf-parserkrk</module>
+    <module>laf-parsergd</module>
+  </modules>
+  
+</project>
