@@ -6,5 +6,5 @@
     * laf-parserwaw
     * laf-parserkrk
     * laf-parsergd
-  * laf-dao
+  * laf-persist
   * laf-restapi
