@@ -31,7 +31,7 @@
   <modules>
     <module>laf-model</module>
     <module>laf-parsers</module>
-    <module>laf-dao</module>
+    <module>laf-persist</module>
     <module>laf-restapi</module>
   </modules>
   
