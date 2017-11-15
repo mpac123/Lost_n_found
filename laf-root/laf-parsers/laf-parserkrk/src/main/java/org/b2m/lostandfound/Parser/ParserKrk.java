@@ -1,4 +1,4 @@
-package org.b2m.lostandfound;
+package org.b2m.lostandfound.Parser;
 
 
 import java.io.File;
@@ -18,14 +18,19 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class ParserKrk {
 
+    public ParserKrk() {
 
-    String wholePDF;
-    public ParserKrk(String pathToPDF) throws  IOException {
-        //Loading an existing document
+    }
+
+
+    private String readPdfFile(String pathToPDF) throws  IOException{
+        /*
+
         File file = new File(pathToPDF);
         PDDocument document = PDDocument.load(file);
         PDFTextStripper pdfTextStripper = new PDFTextStripper();
-        wholePDF = pdfTextStripper.getText(document);
+        String wholePDF = pdfTextStripper.getText(document);
+        return wholePDF;*/
     }
 
 
